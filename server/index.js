@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
     Category
         .find()
     return (
-        res.status(200).json();
+        res.status(200).json()
     );
 });
 
